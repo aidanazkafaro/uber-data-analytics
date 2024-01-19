@@ -1,5 +1,3 @@
-# Data Engineering Project Readme
-
 ## Project Overview
 
 This data engineering project focuses on extracting, transforming, and loading (ETL) taxi data from the NYC government into Google Cloud Platform (GCP). The goal is to process the raw data, store it efficiently, and enable data analysis through visualization tools.
