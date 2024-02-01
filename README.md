@@ -10,6 +10,11 @@ The project utilizes taxi data provided by NYC.gov (https://www.nyc.gov/site/tlc
 
 All raw and processed data is stored in Google Cloud Storage (GCS) in CSV format. GCS provides scalable and durable cloud storage, ensuring accessibility and reliability of the data.
 
+## Data Modelling
+
+Seperate the columns into dimensions and fact table. 
+![Data Modelling](datamodel.png)
+
 ## ETL Process
 
 The ETL process is performed using Mage AI, executed on a Compute Engine virtual machine (VM) within the Google Cloud Platform. Mage AI is responsible for extracting data, applying transformations, and loading it into the desired format for further analysis.
