@@ -17,7 +17,7 @@ Seperate the columns into dimensions and fact table.
 
 ## ETL Process
 
-The ETL process is performed using Mage AI, executed on a Compute Engine virtual machine (VM) within the Google Cloud Platform. Mage AI is responsible for extracting data, applying transformations, and loading it into the desired format for further analysis.
+The ETL process is performed using Mage AI, executed on a Compute Engine virtual machine (VM) within the Google Cloud Platform. Mage AI is responsible for extracting data, applying transformations, and loading it into BigQuery for further analysis.
 
 ![pipeline](pipeline.png)
 
